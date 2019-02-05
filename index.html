@@ -1,0 +1,137 @@
+<!-- Any text inside these kinds of tags is treated as a 'comment'.
+Comments are ignored by the browser and will not be displayed on your website.
+
+They have two main uses:
+
+1. use comments to explain what some code does, this can be useful to you if you come back to some
+code after a long time and forgot why you wrote it in the first place.
+
+2. you can 'comment out' code if you want to test what your website will look like without a specific line of html. This is more convenient than just deleting the line. Just surround the html
+you want to hide with the comment tags. -->
+
+<!-- These are headings in descending order of size -->
+<!-- try 'commenting out' the h1 line below and refresh your browser. -->
+<h1>Size 1</h1>
+<h2>Size 2</h2>
+<h3>Size 3</h3>
+<h4>Size 4</h4>
+<h5>Size 5</h5>
+<h6>Size 6</h6>
+
+<!-- A paragraph groups text together and creates space around it -->
+<p>
+  This is a paragraph. Here is some <strong>bold</strong> text.
+
+  Here is some <em>italic</em> text.
+
+  I'll <u>underline</u> this.
+
+  Notice how these sentences were all on separate lines in the text editor but don't show like that in the browser?
+
+  That's because html doesn't take into account extra white       space     between
+               words.
+  <br>
+  To go to the next line you can use the br tag or just make a new paragraph.
+</p>
+
+<p>This is a new paragraph.</p>
+
+<p>
+  <!-- a hyperlink is created using the anchor ('a') tag.
+       href is the external website or page in your website that you are linking to.
+       target is an optional attribute and the value '_blank' ensures the link opens in a new tab.
+       The bit between <a> and </a> will be the clickable part of the link - this can be text
+       or even an image.
+ -->
+  A link to the <a href="http://www.bbc.co.uk" target="_blank">BBC</a> website.
+</p>
+
+<!-- An unordered list, the list items will be bullet points
+     Take care that all tags are nested correctly.
+ -->
+<ul>
+  <!-- Each item in the list must be inside an <li> tag -->
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <!-- Check what happens if you comment out the line below -->
+</ul>
+
+<!-- An ordered list, the list items will be numerical starting from 1.
+     Can be set to roman numerals using css.
+     Take care that all tags are nested correctly.
+-->
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+
+<!-- img is a self closing tag, i.e. it doesn't require a separate closing tag.
+     src is the location of the image, either a file in your website directory or a
+     link to an image online.
+     alt is the alternative text that will appear in case the image fails to load - this is usually
+     because the filename is misspelled, the location of the file is incorrect, or the file
+     doesn't exist. you can test that out by misspelling the filename or just delete the src attribute.
+ -->
+<img src="images/cat.jpg" alt="A cat">
+
+<!-- this is a line break. can be used to make sure that the next element is below the previous
+     element.
+     Comment out this tag and see what happens to the position of the button below.
+     This is also a self closing tag.
+-->
+<br>
+
+<!-- this button doesn't do anything but with javascript it can be programmed to do anything.
+     the text inside the button tag is the text that will appear on the button.
+ -->
+<button>Click me - nothing happens :-(</button>
+
+<!-- horizontal rule creates a straight horizontal line across the page.
+     This is also a self closing tag.
+-->
+<hr>
+
+<!-- table has a thead tag and a tbody tag.
+     thead contains the column headers. Each header is inside a th tag.
+     tbody contains the rows. Each row is created by using a tr tag.
+     Each tr will have x td tags, where x is the number of th tags. (3 in the example below).
+     If a particular cell is meant to be empty, then leave it as just <td></td>  Do not omit
+     this otherwise your table will look wrong. Try commenting out one of the lines containing
+     an age and see how this effects the table. Then try replacing that line with '<td></td>'
+     and notice the difference.
+     Take care that all tags are nested correctly.
+ -->
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bob</td>
+      <td>25</td>
+      <td>Male</td>
+    </tr>
+    <tr>
+      <td>Ann</td>
+      <td>27</td>
+      <td>Female</td>
+    </tr>
+    <tr>
+      <td>Lisa</td>
+      <td>39</td>
+      <td>Female</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>22</td>
+      <td>Male</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- hyperlinks can be directed towards another page in your website -->
+<p>Let's go to a new page now, click <a href="next_page.html">here</a>.</p>
