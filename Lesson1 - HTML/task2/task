@@ -1,0 +1,25 @@
+You're going to make a personal website, kind of like a cv/portfolio website.
+
+1) Make a html document that has your full name as the page title (i.e. the title shown in the browser tab, not on your actual webpage)
+
+2) add a heading of the largest size which says "welcome to my site"
+
+3) add a horizontal line just after the heading
+
+4) add a paragraph to describe yourself, say who you are, what you do, and what your career or life objectives are.
+
+5) add a face photo
+
+6) add a link which redirects to your github/linkedin/facebook account (or add a link for each of them). The link should open up in a new tab.
+
+7) using bullet points, list 3 of your characteristics
+
+8) add a table which highlights some of your best grades, you can have module and grade as column headings. or maybe a table to show some skills or languages (computer/human) you know, along with your skill level. Or even a table of your hobbies.
+
+9) add a button at the bottom of the page which says "Contact me". The button doesn't need to function as we haven't looked at javascript yet.
+
+10) make sure all files and directories are named according to the correct standards and conventions
+
+Don't worry about how it looks as we'll be looking at css in the next lesson, but try and keep it so each element is below the previous one.
+
+Have fun and let us know if you have any questions!
