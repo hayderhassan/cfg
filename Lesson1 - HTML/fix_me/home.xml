@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<title>
+<html>
+
+<head>
+	<body>
+
+	<h6>Welcome to my website
+	<p>This document is full of mistakes and I need your help to fix them.</p>
+	<p>I'm going to list some of my mistakes here in numerical order:</p>
+	<ul>
+    <li>Files/Directories not conforming to correct naming conventions</li>
+    <li>Files don't have the correct file extensions</li>
+    Missing tags
+    <li>Forgetting to close tags
+    <li>Not <strong>nesting tags correctly</li></strong>
+  </ol>
+
+  <p>I want the word at the end of this line to be a link to open Google in a new tab: <a>Google</p>
+  <p>There should be a picture of a fruit below. You can download a picture of any fruit, add it in an appropriate location in this project folder and place it below the horizontal line. Also include alternative text which will be the name of the fruit. (Try find an image smaller than 500px by 500px)</a>
+  <horizontal-rule>
+  <img source="images">fruit.jpg</img>
+  <!-- <br> -->
+  <button>This is a button
+  <p>The button should be below the fruit, not to the side of it. Remember line breaks.</p></button>
+  <h3>Here is a table:</h3>
+  <table>
+<tbody>
+  <tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>City</th>
+  <td>Steve</td>
+  <td>32</td>
+  <td>London</td>
+</tr>
+<tr>
+		    <td>Dave</td>
+		    <td>29</td
+		    <td>Bristol</td>
+			    <td>Sharon</td>
+			    <td>25</td>
+			    <td>Manchester</td>
+			  </tr>
+			  <tr>
+			    <td>Tracy</td>
+			    <td>38</td>
+			    <td>Birmingham</td>
+		  </r>
+		  <tr>
+		    <td>Bill</td>
+  <td>45</td>
+  <td>Liverpool</td>
+  <tr>
+</thead>
+  </table>
+<body>
