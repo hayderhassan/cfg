@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Example</title>
+    <!-- Linking to an external css file is the best way to style your html.
+    You can link to multiple stylesheets, just add one of these link tags
+    for each stylesheet. -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- This is another way of adding CSS to a HTML document. It follows the same syntax
+    as the css in an external file, but the rules are placed inside style tags, which is inside
+    the head tag. There should be no more than one style tag per html document. It is better to
+    avoid writing css inside a html document. Try to only use external css files. -->
+    <style>
+      h1 {
+        /* When choosing a colour you can use names like "blue", "aqua" or even "darksalmon".
+        Find a list of all colour names at: https://www.w3schools.com/colors/colors_names.asp */
+        border: 1px solid green;
+        color: red;
+      }
+
+      h2 {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Inline CSS should be avoided where possible but here is an example
+    of how it can be used to apply styles to a specific element. Inline css rules
+    only effect that specific element, no other element will be effected.
+    Also notice that there are contradicting rules for the h1 color in the head tag
+    above as well as in the external css file, but it is this css rule below that is applied. -->
+    <h1 style="color: blue">CSS Example 1</h1>
+
+    <h2>What is CSS?</h2>
+    <p>CSS stands for Cascading Style Sheets. It adds style to your HTML.</p>
+
+    <h2>How to add CSS</h2>
+    <p>There are three ways to add CSS to a HTML document:</p>
+    <!-- multiple inline styles are separated by a semi-colon -->
+    <ol style="list-style-type: lower-roman; border: 1px solid green;">
+      <li>Inline</li>
+      <li>Inside the head tag</li>
+      <li>External CSS file</li>
+    </ol>
+
+    <h2>Anatomy of a CSS rule set</h2>
+    <p>CSS rules follow a specific syntax, as shown in the <strong>image</strong> below:</p>
+    <img src="images/css_rule.png" alt="CSS Syntax">
+
+    <h2>Examples of CSS properties</h2>
+    <p>Here are some examples of different types of properties you can style:</p>
+    <ul>
+      <li>color</li>
+      <li>background-color</li>
+      <li>font-family</li>
+      <li>font-size</li>
+      <li>text-align</li>
+      <li>border</li>
+      <li>padding</li>
+      <li>margin</li>
+      <li>width</li>
+      <li>height</li>
+    </ul>
+
+    <p>Please research all the above properties to have an idea of what they do and how they
+      should be implemented. You can read more about them and many other properties <a href="https://www.w3schools.com/cssref/" target="_blank">here</a></p>
+
+  </body>
+</html>

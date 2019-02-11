@@ -1,0 +1,65 @@
+/* This is the universal selector.
+   Every single element in the html document will have the same
+   background colour and font family shown below, UNLESS there is another
+   rule defined later that overrides it. */
+* {
+  background-color: #b8b8b8;
+  /* If the browser doesn't recognise the first font, it will try the second one, and if it
+  doesn't recognise that it will try the third one. This is important as not all old browsers
+  recognise modern fonts.
+  Find other font-family combinations at:
+  https://www.w3schools.com/cssref/css_websafe_fonts.asp */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* These are the rules for every h1 element unless there is an overriding rule for h1 in
+   the head tag or inline. */
+h1 {
+  /* Why doesn't the h1 tag have yellow text on your browser? */
+  color: yellow;
+  /* Padding puts 10 pixels of empty space on the top, bottom, left and right of this element. It's
+     useful for preventing elements from being too crowded.
+     Try changing the figure to see what it looks like. */
+  padding: 10px;
+  /* Change text-align to left or right and see how it changes */
+  text-align: center;
+}
+
+h2 {
+  /* Find the code for a colour you like at: https://www.w3schools.com/colors/colors_picker.asp */
+  color: red;
+  background-color: lightgrey; /* This rule overrides the earlier rule for background-color */
+}
+
+img {
+  /* the three parameters for a border are:
+  (i) thickness of border, (ii) style of border line, (iii) colour of border */
+  border: 3px solid #0000ff;
+}
+
+p {
+  font-size: 16px; /* Play around with this figure to see what bigger or smaller fonts look like */
+  color: #8b008b;
+}
+
+ul {
+  /* Try and find other list style types at:
+  https://www.w3schools.com/cssref/pr_list-style-type.asp */
+  list-style-type: circle;
+}
+
+a {
+  text-decoration: none; /* This gets rid of the default underline that links have */
+  color: green;
+  font-size: 24px;
+}
+
+/* this notation ":hover" applies the following css rules to the specified elements (ie links) ONLY
+when the user hovers over the link with their mouse. In all other scenarios, the rules for "a",
+shown above, will apply.
+Learn more about the ":hover" selector at: https://www.w3schools.com/cssref/sel_hover.asp */
+a:hover {
+  /* This says that the link should only be underlined when the user hovers over it with their cursor */
+  text-decoration: underline;
+  color: blue;
+}
