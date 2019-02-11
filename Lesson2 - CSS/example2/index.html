@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Example 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+
+    <h1>CSS Example 2</h1>
+
+    <div class="section">
+      <h2>Div</h2>
+      <p>"div" stands for "division". And you use it to make divisons, or sections in the layout of your website. It is used to group together elements that belong together.</p>
+      <p>This paragraph is inside the same div as the paragraph and heading above because they are related to each other in the sense that this whole section is about divs. </p>
+    </div>
+
+    <div class="section">
+      <h2>Span</h2>
+      <p>Spans can be used when you want to style some words within a sentence. They are usually found inside other html elements, as demonstrated below.</p>
+      <p>This paragraph starts off in black but when I reach <span id="green-txt">here it suddenly turns green!</span> And now it's back to black.</p>
+    </div>
+
+    <div class="section">
+      <h2>ID</h2>
+      <p>Sometimes you may only want to change one specific 'p' element without effecting any other 'p' element. One way to do this is by using inline css, but this is not advised. So the other way is to give an ID to the element you want to change.</p>
+
+      <p id="blue-paragraph">For example, this paragraph has an ID called "blue-paragraph". Now we can set the css for the "blue-paragraph" ID and no other element on this page will be effected.</p>
+
+      <h3>How to style an ID</h3>
+      <p>Remember when you styled an element you just used the element name? Well, when styling a
+      specific ID, use the '#' symbol before the ID name. e.g. '#blue-paragraph'.</p>
+
+      <h3>When to use an ID</h3>
+      <p>An ID must be unique. This means you cannot repeat the same ID name for a different element. So use an ID when you intend to apply CSS rules to only <strong>one</strong> specific element.</p>
+    </div>
+
+    <div class="section">
+      <h2>Class</h2>
+      <p>There are occasions when you may want to apply the same CSS rules to different elements. In this case, use a class.</p>
+
+      <p>For example, every div on this page has a Class called "section". Now we can set the css for the "section" Class and only the elements with this class name will be effected.</p>
+
+      <h3>How to style a Class</h3>
+      <p>When styling a Class, use the '.' symbol before the Class name. e.g. '.section'.</p>
+
+      <h3>When to use a Class</h3>
+      <p>Use Classes when you want to set the same styles to multiple elements. Classes are useful to ensure that your website has consistent styles throughout. You only need to set the css rules once and then just add the class name to any element you want to style.</p>
+    </div>
+
+    <h2>This is the heading of a new section</h2>
+    <p>This paragraph is part of the same section.</p>
+    <h3>This is a sub heading from the same section</h3>
+    <p>The three lines above, plus this one, are meant to be part of the same section. Please update the code so that this section resembles all the sections above, in terms of the colours and border. Hint: you only need to change the html, not the css.</p>
+
+  </body>
+</html>

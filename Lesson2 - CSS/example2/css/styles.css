@@ -1,0 +1,43 @@
+body {
+  /* This sets the background colour of the whole page */
+  background-color: cyan;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: #bc292f;
+}
+
+/* Only the one element with the ID "green-txt" will be effected by this rule */
+#green-txt {
+  color: green;
+}
+
+/* Only the one element with the ID "blue-paragraph" will be effected by this rule */
+#blue-paragraph {
+  color: blue;
+}
+
+/* These rules apply to all elements that have the class name "section" */
+.section {
+  border: 1px solid blue;
+  border-radius: 8px;
+  /* This margin line says put 30 pixels of margin above and below the section, and put 15 pixels to the left and right */
+  margin: 30px 15px;
+  padding: 5px;
+  /* Try commenting out both the margin and padding, see the difference. Then play around with the
+  figures to see what kind of impact it has. What is the difference between margin and padding?
+  Notice how for margin there are two values and for padding there is one. What if you wanted to
+  set different values to all four sides? */
+  background-color: lightgrey;
+}
+
+/* This selects all h2 elements INSIDE an element that has a "section" class name */
+.section h2 {
+  color: green;
+}
+
+.section h3 {
+  color: brown;
+}
