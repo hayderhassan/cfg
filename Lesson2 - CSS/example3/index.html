@@ -1,0 +1,72 @@
+<!-- This file doesn't have comments explaining the code, if you see a line you don't recognise
+please start by researching it online. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Example 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <div id="navbar">
+        <div id="logo-container">
+          <a href="#" id="logo-text">CSS Example 3</a>
+        </div>
+        <div id="menu-container">
+          <ul id="menu-list">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <div id="image-container">
+      <!-- rather than using the img tag, this is a div that has a background-image set in the css.
+      look up background-image on w3 schools   -->
+      <div id="image"></div>
+    </div>
+
+    <div class="row">
+
+      <div class="col">
+        <p>So far the websites we've made are pretty boring :(</p>
+        <p>This is a demonstration of how we can (slightly) improve the layout of our page.</p>
+        <p>There are quite a few divs on this page. And there are divs inside other divs. The idea of divs is that they are a way of grouping related elements. Divs act as containers for other elements.</p>
+      </div>
+
+      <div class="col">
+        <p>There's a fixed navigation menu bar ("navbar") at the top. If you scroll down, the navbar remains fixed at the top of the window.</p>
+        <p>To make a navbar you need to use an unordered list and set the following CSS rules on the list items: </p>
+        <ul id="list-rules">
+          <li><em>list-style-type: none;</em></li>
+          <li><em>display: inline-block;</em></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <!-- this is just dummy text to act as a placeholder so that there was enough text on the page to make the scrollbar appear, so that you can scroll down to test that the navbar remains fixed. -->
+      <div class="col">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+      </div>
+
+      <div class="col">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,120 @@
+/* This file doesn't have comments explaining the code, if you see a line you don't recognise
+please start by researching it online. You can also try uncommenting any of the border statements
+below to visualise the dimensions of those elements. Also change any of the numerical values
+in this file to see what impact this has. */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+#navbar {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70px;
+  background-color: #2b334d;
+  position: fixed;
+}
+
+#logo-container {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 180px;
+  /* look up float on w3 schools */
+  float: left;
+}
+
+#menu-container {
+  /* border: 1px solid blue; */
+  width: calc(100% - 180px); /* look up the calc function */
+  height: 100%;
+  float: right;
+}
+
+#menu-list {
+  /* border: 1px solid green; */
+  height: 100%;
+  padding-left: 100px;
+}
+
+/* this applies to any list item INSIDE the #menu-list element */
+#menu-list li {
+  /* border: 1px solid red; */
+  list-style-type: none;
+  display: inline-block;
+  width: 150px;
+  height: calc(100% - 15px);
+  text-align: center;
+  padding-top: 15px;
+  font-size: 24px;
+}
+
+/* this applies to any 'a' tag INSIDE a list item INSIDE the #menu-list element */
+#menu-list li a {
+  /* background-color: yellow; */
+  text-decoration: none;
+  color: white;
+}
+
+#logo-text {
+  /* border: 1px solid red; */
+  height: 100%;
+  line-height: 250%;
+  padding-left: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+#menu-list li a:hover, #logo-text:hover {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+#image-container {
+  padding-top: 50px;
+}
+
+#image {
+  /* border: 1px solid green; */
+  height: 400px;
+  padding-top: 70px;
+  /* look up background-image on w3 schools to understand the 4 lines below */
+  background-image: url("../images/html_css.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.row {
+  /* border: 1px solid blue; */
+  width: calc(100% - 40px);
+  height: 200px;
+  padding: 20px;
+}
+
+.col {
+  /* border: 1px solid red; */
+  width: calc(50% - 64px);
+  height: 100%;
+  float: left;
+  margin: 0px 10px;
+  padding: 5px 20px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.col p {
+  padding-top: 10px;
+}
+
+#list-rules {
+  /* Check out padding on w3 schools to know how you can combine the two lines below into
+  one line */
+  padding-top: 10px;
+  padding-left: 30px;
+}
