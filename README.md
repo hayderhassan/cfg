@@ -1,4 +1,4 @@
--# Code First Girls
+# Code First Girls
 
 ## Lesson 1 - HTML
 
