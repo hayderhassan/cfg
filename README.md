@@ -1,4 +1,4 @@
-# Code First Girls
+-# Code First Girls
 
 ## Lesson 1 - HTML
 
@@ -8,6 +8,13 @@
 - HTML elements
 
 ## Lesson 2 - CSS 
+
+- What is CSS
+- Three ways to add CSS
+- Anatomy of CSS rule set
+- Selectors
+- IDs and Classes
+- Divs and Spans
 
 ## Rescources
 
