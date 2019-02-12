@@ -9,9 +9,8 @@
 
 ## Lesson 2 - CSS 
 
-- What is CSS
-- Three ways to add CSS
 - Anatomy of CSS rule set
+- Three ways to add CSS
 - Selectors
 - IDs and Classes
 - Divs and Spans
