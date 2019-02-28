@@ -1,0 +1,56 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  /* border: 1px solid red; */
+  background-color: steelblue;
+}
+
+#navbar-menu {
+  list-style: none;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.menu-item {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-item a:hover {
+  color: white;
+}
+
+#welcome-img {
+  /* border: 1px solid red; */
+  height: calc(100vh - 58px);
+  background-image: url("../images/world.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section {
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+#about {
+  background-color: slateblue;
+}
+
+#contact {
+  background-color: tomato;
+}
