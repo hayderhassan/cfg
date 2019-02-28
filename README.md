@@ -9,6 +9,12 @@
 
 ## Lesson 2 - CSS 
 
+- Anatomy of CSS rule set
+- Three ways to add CSS
+- Selectors
+- IDs and Classes
+- Divs and Spans
+
 ## Rescources
 
 [W3Schools](https://www.w3schools.com/html/default.asp)
