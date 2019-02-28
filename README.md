@@ -15,6 +15,15 @@
 - IDs and Classes
 - Divs and Spans
 
+## Lesson 3 - Recap
+
+- Structure of a website directory
+- Linking to external CSS file
+- Anatomy of a CSS rule set
+- Using Divs to create sections by grouping elements together
+- Using IDs to refer to a unique and specific element
+- Using Classes to refer to a group of related elements
+
 ## Rescources
 
 [W3Schools](https://www.w3schools.com/html/default.asp)
