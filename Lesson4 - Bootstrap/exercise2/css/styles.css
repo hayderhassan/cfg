@@ -1,0 +1,47 @@
+.col-12, .col-10, .col-8, .col-7, .col-6, .col-4, .col-3, .col-2, .col-1 {
+  outline: 1px solid black;
+}
+
+.col-12{
+  background-color: orange;
+}
+
+.col-10 {
+  background-color: teal;
+}
+
+.col-9 {
+  background-color: cyan;
+}
+
+.col-8{
+  background-color: crimson;
+}
+
+.col-7{
+  background-color: yellow;
+}
+
+.col-6{
+  background-color: lightgreen;
+}
+
+.col-5{
+  background-color: salmon;
+}
+
+.col-4{
+  background-color: lightblue;
+}
+
+.col-3{
+  background-color: brown;
+}
+
+.col-2{
+  background-color: grey;
+}
+
+.col-1{
+  background-color: purple;
+}
