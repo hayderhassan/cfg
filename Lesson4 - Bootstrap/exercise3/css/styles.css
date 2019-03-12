@@ -1,0 +1,8 @@
+.my-jumbotron {
+  height: 100vh;
+  background-image: url("../images/ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
